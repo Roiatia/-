@@ -1,0 +1,24 @@
+package Exersice_3;
+
+import java.util.Scanner;
+public class Exersice_3 {
+
+	public static void main(String[] args) {
+		Scanner grade = new Scanner(System.in);
+		
+		System.out.println("Enter Your Grads");
+		
+		float grade1;
+		float grade2;
+		float grade3;
+	
+	 grade1 = grade.nextFloat();
+	 grade2 = grade.nextFloat();
+	 grade3 = grade.nextFloat();
+	
+	float average = (grade1 + grade2 + grade3) / 3.0f;
+	System.out.println("Your Average grade is: " + average);
+	
+	}
+
+}
