@@ -1,0 +1,24 @@
+package Exersice_5;
+
+import java.util.Scanner;
+
+public class Exersice_5 {
+	
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Please enter a number:");
+			
+				double Num;
+				Num = input.nextDouble();
+				int integer_Part = (int) Num; // אחראי רק על המספר השלם
+				double Fraction_Part = Num - integer_Part; //אחראי על החלק השברי של המספר  
+	
+						System.out.println("The number is: "+ Num);
+						System.out.println("Its integer part is:" + integer_Part);
+						System.out.println("Its fraction is:  " + Fraction_Part);
+		
+	}
+
+}
