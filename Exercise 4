@@ -1,0 +1,33 @@
+package Exersice_4;
+
+import java.util.Scanner;
+
+public class Exersice_4 {
+
+	public static void main(String[] args) {
+		
+		Scanner num = new Scanner(System.in);
+		
+		System.out.println("Please Enter number");
+		
+		int x;
+		
+	x = num.nextInt();
+	
+	int div = (x) / 2;
+	int div2 = (x) % 2;
+			
+	System.out.println("the divided number is: " + div);
+			
+		System.out.println("the sherit is: " + div2);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
