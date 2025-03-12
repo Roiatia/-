@@ -1,0 +1,27 @@
+package Exercise_6;
+
+import java.util.Scanner;
+
+public class Exercise_6 {
+
+	public static void main(String[] args) {
+		
+		Scanner input  = new Scanner(System.in);
+		
+				System.out.println("Please a enter a 3 digit number:");
+				int num; 
+					num = input.nextInt();
+					
+					int d1 = (num) / 100;
+					int d2 = (num/10) % 10;
+					int d3 = (num) % 10;
+					
+					System.out.println("The first digit is: " + d1 + " The second Digit is: " + d2 + " The third digit is: " + d3);
+					System.out.println("the reversed number is: " + d3 + d2 + d1);
+					
+						
+				
+		
+	}
+
+}
